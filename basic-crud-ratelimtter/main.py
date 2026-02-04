@@ -3,7 +3,7 @@ from bson import ObjectId
 from typing import List, Optional 
 from pydantic import BaseModel ,Field
 from database import collection
-from middlewares.rate_limiter import rate_limiter
+from middleware.rate_limiter import rate_limiter
 
 
 class User(BaseModel):
